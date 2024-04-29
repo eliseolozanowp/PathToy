@@ -1,0 +1,47 @@
+.card {
+  background-color: rgb(188, 202, 214);
+  max-width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 100px;
+  display: inline;
+}
+
+.card-image {
+  margin: auto;
+  display: block;
+}
+
+.card-content {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-eliminar {
+  margin: 10px;
+  color: black;
+  background-color: red;
+  text-align: center;
+  font-weight: bold;
+  border-color: red;
+}
+
+.btn-actualizar {
+  margin: 10px;
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  font-weight: bold;
+  border-color: yellow;
+}
+
+.btn-guardar {
+  margin: 10px;
+  color: black;
+  background-color: green;
+  text-align: center;
+  font-weight: bold;
+  border-color: green;
+}

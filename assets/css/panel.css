@@ -1,0 +1,104 @@
+.card-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente las tarjetas */
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea */
+  margin-top: 20px;
+}
+
+.card {
+  background-color: rgb(188, 202, 214);
+  width: 250px; /* Ajusta el ancho según tu preferencia */
+  margin: 10px;
+  padding: 15px; /* Reduce el padding para que las tarjetas sean más compactas */
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card-image {
+  margin: 0 auto;
+}
+
+.card-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.card-content {
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.card-botones {
+  margin: auto;
+}
+.card-botones a {
+  text-decoration: none;
+}
+
+/* .btn-eliminar{
+      margin: 10px;
+      color: black;
+      background-color: red ;
+      text-align: center;
+      font-weight: bold;
+      border-color: red;
+  } */
+.btn-eliminar {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  background-color: #df3939;
+  color: black;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* .btn-actualizar {
+    margin: 10px;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+    border-color: yellow;
+} */
+
+.btn-ver {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  background-color: #c8eeef;
+  color: black;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* .btn-guardar {
+    margin: 10px;
+    color: black;
+    background-color: green;
+    text-align: center;
+    font-weight: bold;
+    border-color: green;
+} */
+
+.btn-guardar {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  background-color: green;
+  color: black;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

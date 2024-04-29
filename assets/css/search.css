@@ -1,0 +1,87 @@
+/* Agrega estos estilos en tu archivo search.css */
+
+/* Centrar el formulario */
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+}
+
+.selectors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+/* Alinear elementos internos horizontalmente */
+.search-form input[type="text"],
+.search-form select,
+.search-form button {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 70%; /* Ajusta el ancho según tus preferencias */
+    display: block;
+}
+
+/* Ajustes para el botón de búsqueda */
+.search-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    padding: 10px 20px; /* Ajusta el padding para hacer el botón más grande */
+    font-size: 18px; /* Ajusta el tamaño de la fuente del botón */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el mouse sobre el botón */
+}
+
+
+/* Ajustes para las tarjetas */
+.card-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea */
+    margin-top: 20px;
+}
+
+.card {
+    background-color: rgb(188, 202, 214);
+    width: 250px; /* Ajusta el ancho según tu preferencia */
+    margin: 10px;
+    padding: 15px; /* Reduce el padding para que las tarjetas sean más compactas */
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card-image {
+    margin: 0 auto;
+}
+
+.card-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.card-content {
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+/* Agrega estos estilos en tu archivo search.css */
+
+/* Centrar el título */
+.centered-title {
+    text-align: center;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}

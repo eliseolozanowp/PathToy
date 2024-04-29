@@ -1,0 +1,116 @@
+body {
+  background-color: #b8e4ff;
+}
+
+.background {
+  background-color: #b8e4ff;
+}
+
+.perfil-form {
+  background-color: white;
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.titulo {
+  color: black;
+  text-align: center;
+}
+
+.perfil-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.perfil-logo .camera {
+  display: block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.editar-info {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+}
+
+.form-perfil {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.input-perfil {
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid black;
+  color: black;
+  border-radius: 10px;
+  background-color: #eae3e1;
+}
+
+#btn-actualizar,
+#btn-cancelar {
+  display: none;
+}
+
+.btn-actualizar {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  background-color: gray;
+  color: black;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-cancelar {
+  display: block;
+  width: 200px;
+  height: 40px;
+  margin: 20px auto;
+  background-color: #df3939;
+  color: black;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* .btn-eliminar {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #DF3939;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+} */
+
+.mensaje {
+  background-color: #8bc34a;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
